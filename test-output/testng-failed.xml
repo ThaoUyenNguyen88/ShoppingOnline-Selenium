@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="blouseProductTests.BlouseAddToCartWorkflowTests">
+        <methods>
+          <include name="blouse_Address_Page_AddToCart_Workflow_Test"/>
+          <include name="setUp"/>
+          <include name="move_To_Blouse_Page_By_Click_Product_AddToCart_Workflow_Test"/>
+          <include name="tearDown"/>
+          <include name="blouse_Summary_Page_AddToCart_Workflow_Test"/>
+          <include name="blouse_Payment_Page_AddToCart_Workflow_Test"/>
+          <include name="blouse_Signin_Page_AddToCart_Workflow_Test"/>
+          <include name="blouse_Add_To_Cart_AddToCart_Workflow_Tests"/>
+        </methods>
+      </class> <!-- blouseProductTests.BlouseAddToCartWorkflowTests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
